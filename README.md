@@ -1,6 +1,6 @@
-# StreamPod
+# StreamPod Engine
 
-**Docker image for video streaming server that supports RTMP, HLS, and DASH streams.**
+** Dockerized Video streaming engine that supports RTMP, HLS, and DASH streams.**
 
 [![Docker Automated build](https://img.shields.io/docker/cloud/automated/alqutami/rtmp-hls.svg)](https://hub.docker.com/r/alqutami/rtmp-hls/builds/)
 [![Build Status](https://img.shields.io/docker/cloud/build/alqutami/rtmp-hls.svg)](https://hub.docker.com/r/alqutami/rtmp-hls)
