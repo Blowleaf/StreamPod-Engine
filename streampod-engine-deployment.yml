@@ -1,0 +1,19 @@
+apiVersion: apps/v1
+kind: Deployment
+metadata:
+  name: streampod-engine
+spec:
+  selector:
+    matchLabels:
+      run: streampod-engine
+  replicas: 2
+  template:
+    metadata:
+      labels:
+        run: streampod-engine
+    spec:
+      containers:
+      - name: streampod-engine-pod
+        image: 701273472782.dkr.ecr.us-east-1.amazonaws.com/ocano/streampod-engine
+        ports:
+        - containerPort: 8080
