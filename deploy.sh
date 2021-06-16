@@ -10,3 +10,5 @@ kubectl expose deployment/streampod-engine \
 
 # Get services
 kubectl get svc streampod-engine-service
+
+## Simple Prototype Deployment - ocano 6/16/21

@@ -10,3 +10,5 @@ nodeGroups:
     instanceType: t2.micro
     desiredCapacity: 2
     privateNetworking: false
+
+## Simple Prototype Deployment - ocano 6/16/21
