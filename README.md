@@ -1,6 +1,6 @@
 # StreamPod Engine
 
-<img src="./StreamPod_logo_transparent">
+<img src="StreamPod_logo_transparent.png">
 
 ** Dockerized Video streaming engine that supports RTMP, HLS, and DASH streams.**
 
