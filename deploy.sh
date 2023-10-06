@@ -6,6 +6,7 @@ kubectl apply -f ./streampod-engine-deployment.yml
 # Expose the main containers
 kubectl expose deployment/streampod-engine \
         --port=8080 --target-port=8080 \
+        --port=1953 --target-port=1935 \
         --name=streampod-engine-service --type=LoadBalancer
 
 # Get services
